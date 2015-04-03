@@ -3,11 +3,11 @@ Le Code civil français, sous Git
 
 « Nul n'est censé ignorer la loi. »
 -----------------------------------
-Et pourtant nous autres citoyens (moi y compris) ne connaissons pas les lois qui construisent et gouvernent notre République. Peut-être parce que les outils existants sont trop opaques et complexes.
+Et pourtant, nous autres citoyens (moi y compris) ne connaissons pas les lois qui construisent et gouvernent notre République. Peut-être parce que les outils existants sont trop opaques et complexes.
 
-Notre République c'est un *work in progress* (travail en cours). Elle n'est pas fixe, elle bouge, elle évolue, grace a nos parlementaires: ceux qu'on déteste, ceux qu'on ne connait pas, et ceux qu'on aime. Mais aussi et surtout grace a nous tous, les citoyens. Pouvoir suivre son évolution, c'est une façon de nous ré-approprier ce qui fait de nous ce que nous sommes, et ne pas se perdre dans des querelles passagères.
+Notre République, c'est un *work in progress* (travail en cours). Elle n'est pas fixe, elle bouge, elle évolue, grâce à nos parlementaires: ceux qu'on déteste, ceux qu'on ne connait pas, et ceux qu'on aime. Mais aussi et surtout grâce à nous tous, les citoyens. Pouvoir suivre son évolution, c'est une façon de nous ré-approprier ce qui fait de nous ce que nous sommes, et ne pas se perdre dans des querelles passagères. (voire de simples jugements inopportuns)
 
-Notre République est la représentation de nous tous, a nous d'y contribuer a la hauteur de nos compétences.
+Notre République est la représentation de nous tous, à nous d'y contribuer a la hauteur de nos compétences.
 
 Aux armes, citoyens.
 
@@ -15,17 +15,17 @@ Git ?
 ----
 Ce petit hack, résultat d'une après-midi de code, transpose le Code civil sous Git/Github.
 
-Si l'on considère les lois comme un ensemble de textes modifiés par les différentes assemblées de l'Etat, on peut les considérer comme un ensemble de fichiers texte créé de manière collaborative.
+Si l'on considère les lois comme un ensemble de textes modifiés par les différentes assemblées de l'Etat, on peut les considérer comme un ensemble de fichiers texte créés de manière collaborative.
 
 Les membres du gouvernement, et des différentes assemblées, travaillent en collaboration sur ces fichiers, qui, une fois votés, sont inscrits dans le Code (ici Code civil).
 
-Mais il y a une autre catégorie de gens qui, depuis plus de 50 ans, travaillent sur des fichiers texte de façon collaborative, et excellent à cela : les développeurs. Ils ont créé des outils extrêmement efficaces de collaboration et de tracking pour travailler sur du code source. Le plus populaire en date étant Git.
+Mais il y a une autre catégorie de gens qui, depuis plus de 50 ans, travaillent sur des fichiers texte de façon collaborative, et excellent à cet exercice : les développeurs. Ils ont créé des outils extrêmement efficaces de collaboration et de tracking pour travailler sur du code source. Le plus populaire en date étant Git.
 
 Git permet non seulement de visionner les sources à un instant T (snapshot), mais surtout de visualiser facilement les changements dans ces sources (commits). Dans l'analogie du Code civil, cela permet de repérer très rapidement les changements apportés par une loi.
 
-Combinons tout cela à la philosophie Open Source, et la seconde partie de l'analogie est faite : modification de code source de façon ouverte et publique.
+Combinons tout cela à la philosophie Open Source (GPL ? CA-0 ?, et la seconde partie de l'analogie est faite : modification de code source de façon ouverte et publique.
 
-Finalement, le Code civil, c'est une partie du code source de la France. Et le code source, ça va sur un *source control*. Point.
+Finalement, le Code civil, c'est une partie du code source de la France. Et le code source, ça va sur un *source control*. Point. (ou CVS -Control Versionning System- : -Système de Contrôle de Version-)
 
 Exemple
 -------
@@ -36,8 +36,9 @@ C'est quand même plus lisible que, par exemple (cf http://www.assemblee-nationa
 
 Note technique
 --------------
-Les dates Git étant basées sur l'epoch Unix (01/01/1970), les changements avant cette date sont tous datés au 01/01/1970, avec secondes incrémentales; Le message du commit donne la vraie date.
+Les dates Git étant basées sur l'Epoch Unix (01/01/1970), les changements avant cette date sont tous datés au 01/01/1970, avec secondes incrémentales; Le message du commit donne la vraie date.
 
 LICENCE
 -------
 Tous les fichiers sont sous licence [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
+(à débattre)
